@@ -16,7 +16,6 @@ url+='/'+lastID
 // Open a new connection, using the GET request on the URL endpoint
 request.open('GET', url, true)
 // request.setRequestHeader('Access-Control-Allow-Origin','*');
-request.setRequestHeader('Access-Control-Allow-Headers','x-requested-with');
 
 // request.setRequestHeader('Content-type','application/json');
 // request.setRequestHeader('Access-Control-Allow-Methods','GET');
