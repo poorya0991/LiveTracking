@@ -7,7 +7,7 @@ var typeID = 0
 var lastID = 0
 
 
-var url = 'http://www.service.darukade.com/API/Daruxi_GetDeliveryLocation'
+var url = 'https://www.service.darukade.com/API/Daruxi_GetDeliveryLocation'
 url+='/'+ssid
 url+='/'+userID
 url+='/'+orderiD
@@ -16,7 +16,7 @@ url+='/'+lastID
 // Open a new connection, using the GET request on the URL endpoint
 request.open('GET', url, true)
 // request.setRequestHeader('Access-Control-Allow-Origin','*');
-request.setRequestHeader('Access-Control-Allow-Origin','x-requested-with');
+request.setRequestHeader('Access-Control-Allow-Headers','x-requested-with');
 
 // request.setRequestHeader('Content-type','application/json');
 // request.setRequestHeader('Access-Control-Allow-Methods','GET');
