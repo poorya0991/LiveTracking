@@ -1,4 +1,3 @@
-header("Access-Control-Allow-Origin: *");
 var request = new XMLHttpRequest()
 var ssid = 'ssid'
 var userID = 44
