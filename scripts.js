@@ -6,7 +6,7 @@ var typeID = 0
 var lastID = 0
 
 
-var url = 'https://www.service.darukade.com/API/Daruxi_GetDeliveryLocation'
+var url = 'http://www.service.darukade.com/API/Daruxi_GetDeliveryLocation'
 url+='/'+ssid
 url+='/'+userID
 url+='/'+orderiD
